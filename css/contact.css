@@ -1,0 +1,143 @@
+:root {
+  --icon-color: #fecf21;
+  --footer-color: #3d3d3d;
+}
+
+.title-contact h1 {
+  font-family: "Merriweather" serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.title-contact p {
+  font-family: "Merriweather" serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-top: 30px;
+}
+.fullname-box {
+  display: flex;
+  flex-direction: row;
+}
+.firstname,
+.lastname {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+.email label,
+.message-box label {
+  font-size: 25px;
+  font-family: "Merriweather" serif;
+}
+.email input,
+.fullname-box input,
+.message-box textarea {
+  border: 0.5px solid rgb(217, 201, 201);
+  font-size: 20px;
+}
+form span{
+  color: red;
+}
+.message-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-box textarea {
+  height: 150px;
+}
+textarea:focus {
+  border: 0.5px solid rgb(210, 31, 31);
+  outline: none; /* Remove the outline if desired */
+}
+textarea {
+  border: none;
+}
+/* button submit text */
+.submit-text {
+  margin: 30px 0px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+/* button submit text */
+
+@media (min-width: 1025px) {
+  .left-block {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 770px) {
+  .left-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* container3 */
+.partnership-contact,
+.faq,
+.store-location {
+  font-family: "Merriweather" serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.partnership-contact i {
+  color: aliceblue;
+  font-size: 30px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+.faq i {
+  color: aliceblue;
+  font-size: 30px;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+.store-location i {
+  color: aliceblue;
+  font-size: 30px;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: black;
+}
+.store-location a,
+.faq a,
+.partnership-contact a {
+  font-family: "Merriweather" serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  background-color: var(--icon-color);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.store-location a:hover,
+.faq a:hover,
+.partnership-contact a:hover {
+  background-color: black ;
+}
+.useful-links{
+  margin-top: 170px;
+  margin-bottom: 200px;
+}
+.useful-links h1{
+  font-weight: bold;
+}
+/* container3 */
